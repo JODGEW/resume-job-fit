@@ -9,7 +9,7 @@ description: Evaluate how well a supplied resume matches a supplied job descript
 
 Evaluate resume-to-job fit. Identify the job's core responsibilities and explicit hard requirements, distinguish required qualifications from preferred ones, and assess:
 
-Here, explicit hard requirements means only job-fit requirements that can legitimately be assessed from the supplied resume. Citizenship, work authorization, security clearance, background checks, licenses, and other legal or employment eligibility conditions are out of scope and must not be inferred from resume silence.
+Here, explicit hard requirements means only job-fit requirements that can legitimately be assessed from the supplied resume and that the job description itself clearly marks as non-negotiable with language such as "must have," "required without exception," "hard requirement," or equivalent explicit emphasis. Placement under a heading such as "Required Qualifications" alone does not make a criterion an explicit hard requirement. Citizenship, work authorization, security clearance, background checks, licenses, and other legal or employment eligibility conditions are out of scope and must not be inferred from resume silence.
 
 - specialization alignment
 - responsibility alignment

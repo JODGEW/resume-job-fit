@@ -54,6 +54,8 @@ When a criterion demands demonstrated, professional, production, or time-bound e
 
 Treat experience with a related technology as adjacent evidence for a specifically named technology unless the job description explicitly accepts alternatives or frames the requirement as a broader technology category. Evidence may directly support that broader criterion while remaining adjacent to experience with the specifically named technology.
 
+When related but non-equivalent technology evidence establishes a meaningful connection, classify it as adjacent evidence rather than missing evidence. For example, Docker or other containerization experience is adjacent evidence for a Kubernetes requirement, while Kubernetes, orchestration, and any required production context remain unestablished.
+
 Do not infer equivalence from shared purpose, ecosystem, syntax, vendor, or category alone.
 
 ### Ambiguous Wording
