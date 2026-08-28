@@ -45,7 +45,7 @@ After installation, Claude Code discovered `/resume-job-fit` natively and comple
 
 ## Evaluation Status
 
-The current qualitative baseline passes 14/14 fixtures. This is a model-reviewed qualitative evaluation, not a deterministic automated test suite or a statistical reliability claim.
+The current qualitative baseline passes 15/15 fixtures. This is a model-reviewed qualitative evaluation, not a deterministic automated test suite or a statistical reliability claim.
 
 The same clean-room smoke-test scenario also passed on GPT-5.6 Sol / High, Claude Opus 5 / xhigh, and Claude Sonnet 5 / High; see [`evals/cross-model.md`](evals/cross-model.md) for details. This verifies policy-following after the models were explicitly instructed to read the repository files, not native Skill installation or auto-discovery.
 
