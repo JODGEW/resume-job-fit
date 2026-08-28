@@ -22,7 +22,15 @@ The analysis must not invent candidate facts or silently treat adjacent experien
 
 Tell the agent to read `SKILL.md` and the files under `references/`, provide the resume and a sufficiently complete job description, and ask it to perform the evaluation using those instructions.
 
-Native installation, registration, or auto-discovery has not yet been verified for Claude Code, Codex/OpenAI coding agents, or other hosts; the currently verified path is explicit file reading.
+### Claude Code
+
+Claude Code personal-Skill installation has been verified by symlinking the repository root:
+
+```bash
+ln -s /path/to/resume-job-fit ~/.claude/skills/resume-job-fit
+```
+
+After installation, Claude Code discovered `/resume-job-fit` natively and completed an end-to-end evaluation without an explicit instruction to read `SKILL.md` or `references/`. Native installation or registration remains unverified for Codex/OpenAI coding agents and other hosts.
 
 ## Repository Structure
 
@@ -33,12 +41,15 @@ Native installation, registration, or auto-discovery has not yet been verified f
 - `evals/README.md` — evaluation procedure
 - `examples/basic-example.md` — representative end-to-end example
 - `evals/cross-model.md` — qualitative cross-model smoke test
+- `evals/host-compatibility.md` — verified host installation and execution checks
 
 ## Evaluation Status
 
 The current qualitative baseline passes 14/14 fixtures. This is a model-reviewed qualitative evaluation, not a deterministic automated test suite or a statistical reliability claim.
 
 The same clean-room smoke-test scenario also passed on GPT-5.6 Sol / High, Claude Opus 5 / xhigh, and Claude Sonnet 5 / High; see [`evals/cross-model.md`](evals/cross-model.md) for details. This verifies policy-following after the models were explicitly instructed to read the repository files, not native Skill installation or auto-discovery.
+
+Claude Code native discovery, invocation, and end-to-end execution were separately verified through the symlink installation method; see [`evals/host-compatibility.md`](evals/host-compatibility.md) for details.
 
 ## License
 
