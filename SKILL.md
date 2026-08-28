@@ -47,7 +47,7 @@ If either input is missing, incomplete, or unreadable, state the limitation and 
 ## Output Invariants
 
 - The only valid evidence classes are `Direct evidence`, `Adjacent evidence`, and `Missing evidence`. Never emit `Mixed`, `Partial`, or any other evidence class.
-- If one output row would combine criteria with different evidence classes, split them into separate rows instead of aggregating them.
+- When one JD responsibility or requirement contains materially distinct components, evaluate those components in separate rows if the supplied resume supports them at different evidence classes. Do not collapse the components under the strongest available class or use evidence for one component to upgrade another; for example, "deploy and operate services in Kubernetes" may require `Adjacent evidence` for deployment and `Missing evidence` for ongoing operation.
 - Use Material Uncertainty only for genuine ambiguity in the supplied job description or resume evidence. Ordinary resume silence or an unmet clearly stated criterion is an evidence gap, not uncertainty.
 - If an Alignment Analysis dimension has no material job-description criterion, state that no material criterion was identified and do not assign an evidence class.
 - Do not infer role level from title or experience duration alone.
