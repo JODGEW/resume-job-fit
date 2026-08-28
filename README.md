@@ -20,7 +20,9 @@ The analysis must not invent candidate facts or silently treat adjacent experien
 
 ## Usage
 
-Provide a resume and a sufficiently complete JD, then invoke or read the Skill according to the host agent's Skill mechanism.
+Tell the agent to read `SKILL.md` and the files under `references/`, provide the resume and a sufficiently complete job description, and ask it to perform the evaluation using those instructions.
+
+Native installation, registration, or auto-discovery has not yet been verified for Claude Code, Codex/OpenAI coding agents, or other hosts; the currently verified path is explicit file reading.
 
 ## Repository Structure
 
@@ -36,7 +38,7 @@ Provide a resume and a sufficiently complete JD, then invoke or read the Skill a
 
 The current qualitative baseline passes 14/14 fixtures. This is a model-reviewed qualitative evaluation, not a deterministic automated test suite or a statistical reliability claim.
 
-The same clean-room smoke-test scenario also passed on GPT-5.6 Sol / High, Claude Opus 5 / xhigh, and Claude Sonnet 5 / High; see [`evals/cross-model.md`](evals/cross-model.md) for details.
+The same clean-room smoke-test scenario also passed on GPT-5.6 Sol / High, Claude Opus 5 / xhigh, and Claude Sonnet 5 / High; see [`evals/cross-model.md`](evals/cross-model.md) for details. This verifies policy-following after the models were explicitly instructed to read the repository files, not native Skill installation or auto-discovery.
 
 ## License
 
