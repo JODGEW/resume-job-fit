@@ -32,7 +32,7 @@ Provide a resume and a sufficiently complete JD, then invoke or read the Skill a
 
 ## Evaluation Status
 
-The current qualitative baseline passes 10/10 fixtures. This is a model-reviewed qualitative evaluation, not a deterministic automated test suite or a statistical reliability claim.
+The current qualitative baseline passes 13/13 fixtures. This is a model-reviewed qualitative evaluation, not a deterministic automated test suite or a statistical reliability claim.
 
 ## License
 
