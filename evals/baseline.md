@@ -3,8 +3,8 @@
 - Baseline date: 2026-08-27
 - Model: GPT-5.6 Sol
 - Reasoning effort: High
-- Total cases: 13
-- Passed: 13
+- Total cases: 14
+- Passed: 14
 - Failed: 0
 
 | Case | Result |
@@ -22,8 +22,9 @@
 | 11 | PASS |
 | 12 | PASS |
 | 13 | PASS |
+| 14 | PASS |
 
-This baseline was rerun after strengthening the cross-model Output Invariants in `SKILL.md`.
+This baseline includes the strengthened cross-model Output Invariants and the clarified partial-date duration-threshold policy.
 
 This is a qualitative, model-reviewed baseline checked against each fixture's Expected Behaviors, not a deterministic automated test suite or a statistical reliability claim.
 
