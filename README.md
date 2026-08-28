@@ -29,10 +29,14 @@ Provide a resume and a sufficiently complete JD, then invoke or read the Skill a
 - `evals/cases/` — evaluation fixtures
 - `evals/baseline.md` — latest committed qualitative baseline
 - `evals/README.md` — evaluation procedure
+- `examples/basic-example.md` — representative end-to-end example
+- `evals/cross-model.md` — qualitative cross-model smoke test
 
 ## Evaluation Status
 
 The current qualitative baseline passes 14/14 fixtures. This is a model-reviewed qualitative evaluation, not a deterministic automated test suite or a statistical reliability claim.
+
+The same clean-room smoke-test scenario also passed on GPT-5.6 Sol / High, Claude Opus 5 / xhigh, and Claude Sonnet 5 / High; see [`evals/cross-model.md`](evals/cross-model.md) for details.
 
 ## License
 
