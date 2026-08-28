@@ -68,6 +68,8 @@ When the job description states a duration requirement, compare it only with dur
 
 Do not derive years with a skill from total employment tenure, assume continuous use, or combine ambiguous periods. If the activity is demonstrated but its duration is unclear, report the duration requirement as unresolved rather than assuming it is met.
 
+For partial date ranges such as year-only `2022–Present`, evaluate the full range of durations consistent with the supplied dates. Anchor `Present` to a stated evaluation date, or otherwise to the evaluation's current date. If every plausible duration satisfies the job-description threshold, the duration requirement may be direct evidence and missing month precision is not material uncertainty. If every plausible duration fails it, report the threshold as not demonstrated without inventing a more precise date. If plausible durations cross the threshold boundary, keep the duration unresolved and surface the ambiguity. Do not infer years of a specific technology or activity unless the resume attributes that duration to it.
+
 ### Primary Technology or Programming-Language Gaps
 
 Identify primary technologies or languages from their connection to core responsibilities and from the job description's explicit emphasis. Do not give every named tool equal importance.
