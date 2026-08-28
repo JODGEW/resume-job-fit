@@ -44,6 +44,14 @@ If either input is missing, incomplete, or unreadable, state the limitation and 
 - Surface ambiguity, conflicting evidence, and uncertainty instead of guessing.
 - Do not introduce numeric thresholds or a `FULL`/`PARTIAL`/`ZERO` scoring system unless the referenced policies explicitly define them.
 
+## Output Invariants
+
+- The only valid evidence classes are `Direct evidence`, `Adjacent evidence`, and `Missing evidence`. Never emit `Mixed`, `Partial`, or any other evidence class.
+- If one output row would combine criteria with different evidence classes, split them into separate rows instead of aggregating them.
+- Use Material Uncertainty only for genuine ambiguity in the supplied job description or resume evidence. Ordinary resume silence or an unmet clearly stated criterion is an evidence gap, not uncertainty.
+- If an Alignment Analysis dimension has no material job-description criterion, state that no material criterion was identified and do not assign an evidence class.
+- Do not infer role level from title or experience duration alone.
+
 ## Out of Scope
 
 Do not evaluate, infer, or recommend based on:
