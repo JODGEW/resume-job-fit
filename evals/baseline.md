@@ -25,7 +25,7 @@
 | 14 | PASS |
 | 15 | PASS |
 
-This baseline includes the strengthened cross-model Output Invariants, the clarified partial-date duration-threshold policy, and the strengthened compound-responsibility splitting invariant.
+This baseline includes the strengthened cross-model Output Invariants, the clarified partial-date duration-threshold policy, and the strengthened compound-responsibility splitting invariant requiring explicit evaluation of each split responsibility component.
 
 This is a qualitative, model-reviewed baseline checked against each fixture's Expected Behaviors, not a deterministic automated test suite or a statistical reliability claim.
 
